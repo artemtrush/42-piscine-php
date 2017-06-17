@@ -1,0 +1,256 @@
+body
+{
+	background-color: YellowGreen;
+}
+
+.vec_div
+{
+	position: relative;
+	top : 7px !important;
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+	border: 1px !important;
+	display: block;
+	width : 50px !important;
+	height: 50px !important; 
+}
+
+.vector
+{
+	position: relative;
+	left: 163px !important;
+	top: 2px !important;
+	height: 170px !important;
+	width: 170px !important;
+	border: 0px !important;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.vector input
+{
+	border-radius: 25px;
+	border: 1px solid black;
+	display: block;
+	background-color: Chocolate;
+	width : 50px;
+	height: 50px; 	
+}
+
+.turn
+{
+	display: block;
+	background-color: red;
+	width : 50px;
+	height: 50px; 
+}
+
+.hide
+{
+	text-align: center;
+	font-family: monospace;
+	font-size: 130px;
+	font-weight: bold;
+}
+
+.name
+{
+	margin: auto;
+	width: 1000px;
+	text-align: center;
+	font-family: monospace;
+	font-size: 40px;
+}
+
+.name div
+{
+	width: 100% !important;
+}
+
+.fase
+{
+	margin: 0 auto;
+	width: 1500px;
+	height: 200px;
+}
+
+.fase div
+{
+	position: relative;
+	top : 20px;
+	float: left;
+	width: 497px;
+	height: 174px;
+	border: 2px solid black;
+}
+
+.p1
+{
+	border-right: 0px !important;
+	background-color: Gold;
+}
+
+.p2
+{
+	background-color: Aqua;
+}
+
+.p3
+{
+	background-color: Tomato;
+	border-left: 0px !important;
+}
+
+.arena
+{
+	margin: 0 auto;
+	width: 1500px;
+	height: 1000px;
+}
+
+.field
+{
+	width: 1500px;
+	height: 1000px;
+	position: absolute;
+	box-shadow:
+   		-15px -15px 2px -5px rgba(160,82,45,.5),
+  		 -15px 15px 2px -5px rgba(0,255,255,.5),
+   		15px -15px 2px -5px rgba(255,0,0,.5),
+   		15px 15px 2px -5px rgba(255,255,0,.5);
+}
+
+.mtab
+{
+	border-spacing: 1px;
+}
+
+.mtab td
+{
+	height: 7px;
+	width: 7px;
+}
+
+.crop
+{
+	box-shadow:
+   		-15px -15px 2px -5px rgba(160,82,45,.5),
+  		 -15px 15px 2px -5px rgba(0,255,255,.5),
+   		15px -15px 2px -5px rgba(255,0,0,.5),
+   		15px 15px 2px -5px rgba(255,255,0,.5);
+	float:left;
+	overflow:hidden; 
+	position:relative;
+	width: 1500px;
+	height: 1000px;
+}
+
+.crop img
+{
+	position:absolute;
+	top:-99px;
+	left: -110px;
+}
+
+.order
+{
+	font-family: monospace;
+	font-size: 20px;
+	border: 0px !important;
+	top : 0px !important;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.order input
+{
+	border-radius: 10px;
+	background-color: LightGreen;
+	width: 200px;
+}
+
+.shtur
+{
+	position: relative;
+	height: 80%;
+	left: 50px;
+	top: 20px;
+}
+
+.go
+{
+	background-color: LawnGreen;
+	display: block;
+	position: relative;
+	font-family: monospace;
+	font-size: 30px;
+	border-radius: 33px;
+	width: 66px;
+	height: 66px;
+	left: 310px;
+	top: -90px;
+}
+
+.L
+{
+	left: 45px;
+	top: -77px;
+}
+
+.R
+{
+	left: 123px;
+	top: -62px;
+}
+
+.LR
+{
+	opacity: 0;
+	display: block;
+	position: relative;
+	font-size: 0px;
+	width: 70px;
+	color: black;
+}
+
+.dst
+{
+	position: relative;
+	font-family: monospace;
+	font-size: 20px;
+	left: 100px;
+	top: -70px;
+}
+
+.skip
+{
+	background-color: YellowGreen;
+	font-size: 20px;
+	height: 50px;
+	width: 200px;
+}
+
+.op
+{
+	opacity: 0.4;
+	background-color: red;
+}
+
+.cp1
+{
+	background-color: DarkMagenta;
+}
+
+.cp2
+{
+	background-color: black;
+}

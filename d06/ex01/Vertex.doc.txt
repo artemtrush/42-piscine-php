@@ -1,0 +1,31 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles space 3D vertexes
+• The Vertex class constructor is waiting for an array. The following keys are
+required:
+’x’: x axis coordinate, mandatory.
+’y’: y axis coordinate, mandatory.
+’z’: z axis coordinate, mandatory.
+’w’: optional, by default is worth 1.0.
+’color’: optional, by default is worth a new instance of the color white.
+• The Class include a Boolean static attribute called verbose to control the
+displays related to the use of the Class. This attribute is initially False.
+• If and only if the static attribute verbose is true, then the Class
+constructor and
+destructor will produce an output.
+
+Reading functions :
+• getX
+• getY	
+• getZ
+• getW		
+• getColor
+
+Writing functions :
+• setX
+• setY	
+• setZ
+• setW		
+• setColor
+
+---------------------------------------------------------------------- Vertex ->

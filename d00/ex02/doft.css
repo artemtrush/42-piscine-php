@@ -1,0 +1,153 @@
+body {
+	background-color: #505050;
+}
+
+.img_style {
+	background-color: #909090;
+	box-shadow:15px 15px 15px;
+	border-radius: 15px;
+}
+
+.daydiv {
+	display:block;
+	margin: 0 auto;
+	width: 2000px;
+	height: 180px;
+}
+
+.main {
+	display:block;
+	margin: 0 auto;
+	width: 2000px;
+	height: 800px;
+}
+
+.left {
+	float: left;
+	position: relative;
+	left : 30px;
+	display: inline-block;
+	width: 200px;
+	height: 600px;
+}
+
+.mid {
+	float: left;
+	position: relative;
+	left: 80px;
+	display: inline-block;
+	width: 1440px;
+	height: 820px;		
+}
+
+.right {
+	position: relative;
+	left : 120px;
+	display: inline-block;
+	width: 200px;
+	height: 600px;
+}
+
+.day {
+	border-radius: 15px;
+	position: relative;
+	height : 90%;
+	top:  -25px;
+	left: 10px;
+}
+
+.reload {
+	position: relative;
+	left: 1325px;
+	top : -155px;
+	height : 15%;
+}
+
+.close {
+	position: relative;
+	left: 1297px;
+	top : -30px;
+	height : 15%;
+}
+
+.loupe {
+	position: relative;
+	left: 920px;
+	top : 10px;
+	height : 110%;
+}
+
+.cluster {
+	position: relative;
+	top : 13px;
+	width: 98%;
+}
+
+.book {
+	display:block;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.towel {
+	display:block;
+	margin: 0 auto;
+	width: 45%;
+}
+
+.brick {
+	display:block;
+	margin: 0 auto;
+	width: 80%;
+	height: 12%;
+	background: url(resources/brick.jpg) repeat;
+}
+
+.ldiv {
+	display:block;
+	margin: 0 auto;
+	height: 15%;
+}
+
+.oeil {
+	border-radius: 8px;
+	border: 8px solid red;
+}
+
+.block {
+	background-color: rgb(136,255,135);
+	position: relative;
+	width: 750px;
+	height: 250px;
+	top:  -90px;
+	left: 200px;
+	box-shadow:15px 15px 15px;
+	border-radius: 15px;
+	padding-left: 30px;
+}
+
+.text {
+	font-family: sans-serif; 
+	font-size: 25px;
+}
+
+.ent {
+	font-size: 42px;
+}
+
+.ord {
+	text-shadow: 5px 5px 3px rgb(255,00,07);
+}
+
+.bon {
+	font-size: 25px;
+	font-style: italic;
+}
+
+.input {
+	width: 530px;
+}
+
+.b {
+	font-size: 25px;
+}

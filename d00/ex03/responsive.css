@@ -1,0 +1,92 @@
+	body {
+		background-color: DarkGrey;
+	}
+
+	.my_table {
+		display: flex;
+
+		flex-direction: column;
+		align-items: center;
+
+		justify-content: space-between;
+		border-collapse: collapse;
+	}
+
+	.my_row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		border-collapse: collapse;
+	}
+
+	.my_elem {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		padding: 2px 2px 2px 2px;
+		height: 9vh;
+		width: 5vw;
+
+		min-width: 20px;
+		min-height: 20px;
+		border: 1px solid black;
+		font-size: 4vw;
+		border-collapse: collapse;
+	}
+
+	.tr {
+		height: 15%;
+		text-align: right;
+		
+		font-size: 20%;
+	}
+
+	.c {
+		height: 50%;
+		text-align: center;
+		
+		font-weight: bold;
+		font-size: 60%;
+	}
+
+	.bl {
+		height: 18%;
+		text-align: left;
+		
+		font-size: 20%;
+	}
+
+	.G {background-color: Gainsboro;}
+	.D {background-color: DarkGrey; border: 1px solid DarkGrey}
+	.C {background-color: CornflowerBlue;}
+	.O {background-color: Orange;}
+	.Y {background-color: Yellow;}
+	.L {background-color: LimeGreen;}
+	.E {background-color: GreenYellow;}
+	.S {background-color: DeepSkyBlue;}
+	.M {background-color: MediumSpringGreen;}
+	.P {background-color: Plum;}
+	.K {background-color: Khaki;}
+	.I {background-color: IndianRed;}
+
+	@media screen and (max-height: 1000px) {
+		.my_elem {
+			font-size: 7vh;
+		}
+	}
+
+	@media screen and (max-height: 630px) {
+		.my_elem {
+			height: 8.5vh;
+		}
+	}
+
+	@media screen and (max-width: 1240px) {
+		.my_elem {
+			width: 4.5vw;
+            font-size: 2.5vw;
+		}
+	}
+

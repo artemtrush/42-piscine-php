@@ -1,0 +1,1 @@
+CREATE DATABASE IF NOT EXISTS db_atrush CHARACTER SET utf8 COLLATE utf8_general_ci;
